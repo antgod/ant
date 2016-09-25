@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d6d104c9-5494-4614-90d6-d0b18576f8b5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/alipay/.idea/jsLibraryMappings.xml" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/alipay/es-lint/eslint.md" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/alipay/webpack/1.config.md" />
-      <change type="MODIFICATION" beforePath="$USER_HOME$/alipay/.idea/alipay.iml" afterPath="$USER_HOME$/alipay/.idea/alipay.iml" />
-      <change type="MODIFICATION" beforePath="$USER_HOME$/alipay/.idea/misc.xml" afterPath="$USER_HOME$/alipay/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$USER_HOME$/alipay/.idea/workspace.xml" afterPath="$USER_HOME$/alipay/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/ant/immutable/immutable.js" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/ant/.idea/alipay.iml" afterPath="$USER_HOME$/ant/.idea/alipay.iml" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/ant/.idea/vcs.xml" afterPath="$USER_HOME$/ant/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/ant/.idea/workspace.xml" afterPath="$USER_HOME$/ant/.idea/workspace.xml" />
     </list>
     <ignored path="alipay.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,23 +28,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="snapshots.test.js" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/study/jest/snapshots.test.js">
+      <file leaf-file-name="immutable.js" pinned="false" current-in-tab="true">
+        <entry file="file://$USER_HOME$/ant/immutable/immutable.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="20" column="3" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
-              <folding>
-                <element signature="e#0#43#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="snapshots.test.js.snap" pinned="false" current-in-tab="true">
-        <entry file="file://$USER_HOME$/study/jest/__snapshots__/snapshots.test.js.snap">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-426">
-              <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+            <state relative-caret-position="100">
+              <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -67,7 +53,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$USER_HOME$/alipay/es-lint/eslint.md" />
         <option value="$USER_HOME$/study/npm/yargs.js" />
         <option value="$USER_HOME$/study/react-webpack/package.json" />
         <option value="$USER_HOME$/study/react-webpack/app/index.js" />
@@ -78,6 +63,7 @@
         <option value="$USER_HOME$/study/jest/package.json" />
         <option value="$USER_HOME$/study/jest/sum.test.js" />
         <option value="$USER_HOME$/study/jest/__snapshots__/sum.test.js.snap" />
+        <option value="$USER_HOME$/ant/immutable/immutable.js" />
       </list>
     </option>
   </component>
@@ -88,6 +74,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="NodeModulesDirectoryManager">
+    <handled-path value="$USER_HOME$/ant/node_modules" />
     <handled-path value="$USER_HOME$/study/jest/node_modules" />
     <handled-path value="$USER_HOME$/study/npm/node_modules" />
     <handled-path value="$USER_HOME$/study/react-webpack/node_modules" />
@@ -97,7 +84,7 @@
     <option name="width" value="1280" />
     <option name="height" value="746" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -134,28 +121,6 @@
               <option name="myItemId" value="alipay" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="alipay" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="alipay" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="__snapshots__" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -185,7 +150,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="git" />
+              <option name="myItemId" value="immutable" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -201,18 +166,19 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
+    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="js.eslint.nodeInterpreter" value="project" />
     <property name="js.eslint.eslintPackage" value="" />
-    <property name="last_opened_file_path" value="$USER_HOME$/study/jest" />
+    <property name="last_opened_file_path" value="$USER_HOME$/study/components" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
     <property name="jsx.switch.disabled" value="true" />
     <property name="JavaScriptPreferStrict" value="false" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -222,7 +188,10 @@
       <recent name="$USER_HOME$/study" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Node.js.immutable.js">
+    <configuration default="false" name="immutable.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="immutable.js" working-dir="$USER_HOME$/ant/immutable">
+      <method />
+    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <method />
     </configuration>
@@ -276,6 +245,14 @@
       <recursive>false</recursive>
       <method />
     </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Node.js.immutable.js" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Node.js.immutable.js" />
+      </list>
+    </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
       <Port>5050</Port>
@@ -295,27 +272,27 @@
       <option name="presentableId" value="Default" />
       <updated>1474704170481</updated>
       <workItem from="1474704171890" duration="6713000" />
-      <workItem from="1474729687692" duration="5607000" />
+      <workItem from="1474729687692" duration="8906000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12320000" />
+    <option name="totallyTimeSpent" value="15619000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="746" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25241935" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25241935" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32872504" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42089093" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42089093" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39938557" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -341,13 +318,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/study/react-webpack/node_modules/react-test-renderer/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/study/react-webpack/node_modules/react/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="841">
@@ -427,8 +397,16 @@
     </entry>
     <entry file="file://$USER_HOME$/study/jest/__snapshots__/snapshots.test.js.snap">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-426">
-          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+        <state relative-caret-position="74">
+          <caret line="27" column="7" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/ant/immutable/immutable.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
           <folding />
         </state>
       </provider>
