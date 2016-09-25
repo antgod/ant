@@ -20,6 +20,9 @@
     </annotationProcessing>
   </component>
   <component name="CopyrightManager" default="" />
+  <component name="JavaScriptSettings">
+    <option name="languageLevel" value="JSX" />
+  </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
       <profile-state>
