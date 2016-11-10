@@ -36,7 +36,7 @@
                     onresolved: success,
                     onrejected: fail,
                 }
-                handler.promise = new Promise(() => {})
+                handler.promise = new PreCatchPromise(() => {})
 
                 if (this.status === this.STATUS.PENDING) {
                     this.defferd.push(handler)
@@ -69,7 +69,7 @@
                         if (this.status === this.STATUS.RESOLVED && typeof fn.onresolved === 'function') {
                             last = fn.onresolved(value)
                             if (last !== undefined && typeof last.then !== 'function') {
-                                last = new Promise(res => res(fn.onresolved(value)))
+                                last = new PreCatchPromise(res => res(fn.onresolved(value)))
                             }
                         }
                         if (this.status === this.STATUS.REJECTED && typeof fn.onrejected === 'function') {
@@ -81,7 +81,7 @@
                     }
                     const promise = fn.promise
                     if (promise) {
-                        if (last !== undefined && last.constructor === Promise) {
+                        if (last !== undefined && last.constructor === PreCatchPromise) {
                             last.defferd = promise.defferd
                         } else {
                             last = this
@@ -103,7 +103,7 @@
             // 这里作为测试功能,可以注释掉测试Promise其他功能
             throw new Error('this is a new exception')
             /* eslint-disable no-unreachable */
-            return new Promise(res => res('第二次返回数据'))
+            return new PreCatchPromise(res => res('第二次返回数据'))
         })
         .then(() => '第三次返回数据')
         .then(data => console.log(data))

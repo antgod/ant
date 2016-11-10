@@ -30,7 +30,7 @@ module.exports = class PreCatchPromise {
       onresolved: success,
       onrejected: fail,
     }
-    handler.promise = new Promise(() => {})
+    handler.promise = new PreCatchPromise(() => {})
 
     if (this.status === this.STATUS.PENDING) {
       this.defferd.push(handler)
@@ -63,7 +63,7 @@ module.exports = class PreCatchPromise {
         if (this.status === this.STATUS.RESOLVED && typeof fn.onresolved === 'function') {
           last = fn.onresolved(value)
           if (last !== undefined && typeof last.then !== 'function') {
-            last = new Promise(res => res(fn.onresolved(value)))
+            last = new PreCatchPromise(res => res(fn.onresolved(value)))
           }
         }
         if (this.status === this.STATUS.REJECTED && typeof fn.onrejected === 'function') {
@@ -75,7 +75,7 @@ module.exports = class PreCatchPromise {
       }
       const promise = fn.promise
       if (promise) {
-        if (last !== undefined && last.constructor === Promise) {
+        if (last !== undefined && last.constructor === PreCatchPromise) {
           last.defferd = promise.defferd
         } else {
           last = this

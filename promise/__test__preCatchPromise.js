@@ -10,7 +10,7 @@ const p = new PreCatchPromise(res => res('第一次返回数据'))
   // 这里作为测试功能,可以注释掉测试Promise其他功能
   throw new Error('this is a new exception')
   /* eslint-disable no-unreachable */
-  return new Promise(res => res('第二次返回数据'))
+  return new PreCatchPromise(res => res('第二次返回数据'))
 })
 .then(() => '第三次返回数据')
 .then(data => console.log(data))
