@@ -1,1 +1,0 @@
-1. http://eslint.org/docs/user-guide/configuring
